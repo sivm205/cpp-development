@@ -6,7 +6,22 @@ int main()
     int arr2[3][3]= {1,2,3,4,5,6,7,8,9};
     int i,j,k,l ;
     static int tot;
-    cout<<size_t(arr1) <<endl;
-
-    cout<<sizeof(arr1)/sizeof(arr1[1])<<endl;
+  
+    
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            for(k=0;k<3;k++)
+            {
+                for(l=0;l<3;l++)
+                {
+                    if(i == k && j==l)
+                    {
+                        cout<<arr1[i][j] + arr2[k][l]<<endl;
+                    }
+                }
+            }
+        }
+    }
 }
