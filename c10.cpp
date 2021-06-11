@@ -4,41 +4,18 @@ int main()
 {
     int rows,column ,final[5][5];
    // int sum = 0;
-    int arr[5][5] ,brr[5][5] ,i,j,k;
+    int arr[5][5] = {{1,2},{4,2}}, brr[5][5] = {{5,2},{2,1}} ,i,j,k;
 
-     cout<<"enter the total number of rows="<<endl;
-    cin>>rows;
-
-    cout<<"enter the total number of column="<<endl;
-    cin>>column;
-
-    cout<<"enter the elements for first array\n";
-    for(i=0;i<rows;i++)
-    {
-        for(j=0;j<column;j++)
-        {
-            cin>>arr[rows][column];
-            cout<<endl;
-        }
-    }
-    cout<<"enter the elements for second array\n";
-    for(i=0;i<rows;i++)
-    {
-        for(j=0;j<column;j++)
-        {
-            cin>>brr[rows][column];
-            cout<<endl;
-        }
-    }
+     
 
     cout<<"matrix multiplication are="<<endl;
-    for(i=0;i<rows;i++)
+    for(i=0;i<2;i++)
     {
-        for(j=0;j<column;j++)
+        for(j=0;j<2;j++)
         {
             final[i][j] =0;
 
-            for(k=0;k<column;k++)
+            for(k=0;k<2;k++)
             {
                 final[i][j] += (arr[i][k] * brr[k][j]);
             }
@@ -46,9 +23,9 @@ int main()
 
         }
     }
-    for(i=0;i<rows;i++)
+    for(i=0;i<2;i++)
     {
-        for(j=0;j<column;j++)
+        for(j=0;j<2;j++)
         {
             cout<<final[i][j]<<endl;
         }
