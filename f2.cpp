@@ -13,7 +13,7 @@ int main()
 {
 
 
-    int num = 7;
+    int num = 9;
     printnum(num);
     cout<<"first function calling successfully\n";
     int num1  = 23;
