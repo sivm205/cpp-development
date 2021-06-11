@@ -2,8 +2,9 @@
 using namespace std;
 int main()
 {
-    int rows,column ,sum[rows][column] ;
-    int arr[rows][column] ,brr[rows][column] ,i,j,k;
+    int rows,column ,final[5][5];
+   // int sum = 0;
+    int arr[5][5] ,brr[5][5] ,i,j,k;
 
      cout<<"enter the total number of rows="<<endl;
     cin>>rows;
@@ -12,21 +13,21 @@ int main()
     cin>>column;
 
     cout<<"enter the elements for first array\n";
-    for(i=1;i<=rows;i++)
+    for(i=0;i<rows;i++)
     {
-        for(j=1;j<=column;j++)
+        for(j=0;j<column;j++)
         {
             cin>>arr[rows][column];
-            cout<<"\t";
+            cout<<endl;
         }
     }
     cout<<"enter the elements for second array\n";
-    for(i=1;i<=rows;i++)
+    for(i=0;i<rows;i++)
     {
-        for(j=1;j<=column;j++)
+        for(j=0;j<column;j++)
         {
             cin>>brr[rows][column];
-            cout<<"\t";
+            cout<<endl;
         }
     }
 
@@ -35,18 +36,21 @@ int main()
     {
         for(j=0;j<column;j++)
         {
+            final[i][j] =0;
+
             for(k=0;k<column;k++)
             {
-                sum[i][j] = 0;
-                sum[i][j] = sum[i][j]+ (arr[i][k] * brr[k][j]);
+                final[i][j] += (arr[i][k] * brr[k][j]);
             }
+                
+
         }
     }
     for(i=0;i<rows;i++)
     {
         for(j=0;j<column;j++)
         {
-            cout<<sum[i][j]<<endl;
+            cout<<final[i][j]<<endl;
         }
     }
 
