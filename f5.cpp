@@ -9,7 +9,7 @@ int table(int n)
     {
         tot = n*i;
        cout<<tot<<endl;
-}
+    }
 }
 int main()
 {
