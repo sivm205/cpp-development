@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-   cout<< table(7);
+   cout<< table(4);
    return 0;
 }
