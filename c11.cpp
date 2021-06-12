@@ -19,7 +19,7 @@ int main()
     cout<<"p is variable that stores the address of a (p = &a) "<<p<<endl;
     cout<<"the address of p varibale is " <<&p<<endl;
 
-    /* asterisk (*) is indication of value at particular address space like *p
+    /* asterisk (*) is indication of value at particular address space like *p*/
 
 
 return 0;
