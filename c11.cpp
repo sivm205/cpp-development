@@ -21,6 +21,5 @@ int main()
 
     /* asterisk (*) is indication of value at particular address space like *p*/
 
-
-return 0;
+    
 }
