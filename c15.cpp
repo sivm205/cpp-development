@@ -9,9 +9,7 @@ int main()
     char move ;
     while (true)
 
-{        /* code */
-    
-    
+{     
     cout<<"given moves are \n";
     cout<<"1.up\n2.down\n3.left\n4.right\n5.exit"<<endl;
     cin>>move;
