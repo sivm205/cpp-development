@@ -10,7 +10,7 @@ int main()
     cout<<"listed operations u can perform are below here"<<endl;
     while(true)
     {
-         cout<<"1.Addition\n2.Substraction\n3.Multiplication\n4.division\n5.get the reminder\n0.exit\n";
+         cout<<"1.Addition\n2.Substraction\n3.Multiplication\n4.division\n5.get the reminder\n6. get the square root\n0.exit\n";
          int option;
          cin>>option;
          switch (option)
@@ -64,11 +64,25 @@ int main()
          break;
 
         }
-           case 0:
+        case 6:
         {
+            cout<<"enter the number to know the square root"<<endl;
+            int num,i;
+            cin>>num;
+            for ( i = 1; i <= num; i++)
+            {
+                if(num/i==i)
+               {
+                     cout<<"the square root of "<<num <<" is "<<i<<endl;
+               }
+      
+            }
+        }
+           case 0:
+           {
            exit(0);
 
-        }  
+             }  
          
          default:
          cout<<"invalid option u can try 0 for exit \n";
