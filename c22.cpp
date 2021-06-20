@@ -1,8 +1,10 @@
+//finding square root
+
 #include<iostream>
 using namespace std;
 int main()
 {
-    int i= 1, num;
+    double i= 1, num;
     cout<<"enter the number to know the square root"<<endl;
     cin>>num;
     /*for ( i = 1; i <= num; i++)
@@ -14,7 +16,7 @@ int main()
       
     }
     */
-   int count= 0;
+   double count= 0;
    while(i*i<=num)
    {
        count++;
