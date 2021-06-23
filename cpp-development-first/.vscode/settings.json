@@ -1,0 +1,18 @@
+{
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.preferredHighContrastColorTheme": "Default Light+",
+    "workbench.preferredLightColorTheme": "Default High Contrast",
+    "notebook.lineNumbers": "on",
+    "C_Cpp.default.browse.path": [],
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.forcedInclude": [],
+    "C_Cpp.default.includePath": [],
+    "files.exclude": {
+        "*.exe": true,
+        "**/.exe": true,
+        "/**/.exe": true
+    }
+}
