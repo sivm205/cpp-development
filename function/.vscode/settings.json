@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    "**/.exe": true,
+    "**/*.exe": true
+  },
+  "C_Cpp.files.exclude": {
+    "**/.vscode": true
+  }
+}
