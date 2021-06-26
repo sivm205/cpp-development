@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "cpp-development-first"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Visual Studio Dark",
+		"workbench.preferredHighContrastColorTheme": "Default Light+",
+		"workbench.preferredLightColorTheme": "Default High Contrast",
+		"notebook.lineNumbers": "on"
+	}
+}

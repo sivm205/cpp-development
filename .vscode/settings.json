@@ -1,7 +1,25 @@
 {
-    "git.ignoreLimitWarning": true,
-    "files.associations": {
-        "typeinfo": "cpp",
-        "chrono": "cpp"
-    }
+  "git.ignoreLimitWarning": true,
+  "files.associations": {
+    "typeinfo": "cpp",
+    "chrono": "cpp"
+  },
+  "files.exclude": {
+    "cpp-development-first\\c26.exe": true,
+    "*.git": true,
+    "*.git.*": true,
+    "*.vscode": true,
+    "*.vscode.*": true,
+    "*cpp tutorial": true,
+    "*cpp tutorial.*": true,
+    "*cpp-development-first.*": true,
+    "*function": true,
+    "*function.*": true,
+    "*headerfiles": true,
+    "*headerfiles.*": true,
+    "*programs": true,
+    "*programs.*": true,
+    "**/cpp-development-first": true,
+    "**/cpp-development-first.*": true
+  }
 }
