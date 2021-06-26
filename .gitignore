@@ -1,4 +1,16 @@
+<<<<<<< HEAD
 /**/.exe
 *.exe
 *.code
 D:\Programs\c cpp\function\.exe
+=======
+*.exe
+"*".exe
+D:\Programs\c cpp\cpp tutorial\*.exe
+/*.exe
+f2.exe
+f6.exe
+_%*.exe
+tempCodeRunnerFile.cpp
+tempCodeRunnerFile.exe
+>>>>>>> master
