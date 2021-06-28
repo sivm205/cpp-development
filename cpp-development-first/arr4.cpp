@@ -3,6 +3,16 @@
 #include<iostream>
 using namespace std;
 
+int sum_of_Array(int arr[] , int size)
+{
+    int res = 0;
+    for(int i =0;i<size;i++)
+    {
+        res+= arr[i];
+    }
+    return res;
+    
+}
 int count_array(int arr[] ,int n) //it will count how many times a particular element is repeated
 {
      for (int i = 0; i < n; i++)
@@ -52,7 +62,8 @@ int main()
     int arr[] = {1,3,2,3,1,2,3,4,2,1,3};
     int n = sizeof(arr)/sizeof(arr[1]);
     int i = count_distinct(arr , n);
-    int i = count_array(arr , n);   
+  //  int call_count = count_array(arr , n);  
+      cout<<"total sum of array element is "<<sum_of_Array(arr,n);
 
 return 0;
 }
