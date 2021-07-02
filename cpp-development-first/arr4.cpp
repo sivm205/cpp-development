@@ -1,4 +1,3 @@
-//counting number of distinct element of arrays
 
 #include<iostream>
 using namespace std;
@@ -61,6 +60,7 @@ int main()
 {
     int arr[] = {1,3,2,3,1,2,3,4,2,1,3};
     int n = sizeof(arr)/sizeof(arr[1]);
+    cout<<"total distinct element is = "<<endl;
     int i = count_distinct(arr , n);
   //  int call_count = count_array(arr , n);  
       cout<<"total sum of array element is "<<sum_of_Array(arr,n);
