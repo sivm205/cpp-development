@@ -1,7 +1,7 @@
 {
     "C_Cpp.intelliSenseEngineFallback": "Enabled",
     "C_Cpp.autocompleteAddParentheses": true,
-    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.colorTheme": "GitHub Dark",
     "workbench.preferredHighContrastColorTheme": "Default Light+",
     "workbench.preferredLightColorTheme": "Default High Contrast",
     "notebook.lineNumbers": "on",
